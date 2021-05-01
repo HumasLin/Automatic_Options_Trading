@@ -1,0 +1,133 @@
+/*!
+ * Custom CSS
+ * Copyright 2020 CS6220 group17
+ */
+
+
+.login-card {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    max-width: 360px;
+}
+
+.menu-card {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    max-width: 360px;
+}
+
+.form-card {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    max-width:1000px;
+}
+.form-card_1 {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    max-width:700px;
+}
+.form-card .form {
+    margin:1em;
+}
+.login-card .form-group{
+    position: relative;
+}
+
+.form-card_1 .form-group{
+    position: relative;
+}
+
+.login-card .form-group_1{
+    position: relative;
+}
+
+.form-card_1 .form-group_1{
+    position: relative;
+}
+
+.login-card i{
+    position: absolute;
+    left: 9px;
+    top: 12px;
+    font-size: 14px;
+}
+
+.form-card_1 i{
+    position: absolute;
+    left: 9px;
+    top: 12px;
+    font-size: 14px;
+}
+
+.login-card .form-control {
+    padding-left: 100px;
+}
+.form-card_1 .form-control {
+    padding-left: 100px;
+}
+
+.login-card .form-control_1 {
+    padding-left: 100px;
+}
+.form-card_1 .form-control_1 {
+    padding-left: 100px;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.fa{
+    margin-right: 0.2em;
+    width: 1em;
+    text-align:center;
+}
+
+.hidden-text{
+    display: none;
+}
+
+@media (max-width: 800px) {
+.hidden-text{
+    display: inline;
+}
+}
+
+
+.form-group .info-col {
+    margin: auto;
+}
+
+form label {
+    font-weight: bold;
+}
+.table td{
+    vertical-align: text-bottom;
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+td .btn {
+    width: 6em;
+}
+
+.btn:disabled{
+    opacity: 0;
+}
+
+caption {
+    caption-side: top;
+    font-size: large;
+    color: #212529;
+}
+

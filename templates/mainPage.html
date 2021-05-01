@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Select Your Option{% endblock %}
+{% block content %}
+<h1 align="center" margin="auto"> Automatic Options Trading Generation  System 📈</h1>
+<div class="form-card_1 card">
+    <div class="card-header">
+        <h3 align="center" class="panel-title"><center>Choose Your Option💰</center></h3>
+    </div>
+    <div class="card-body">
+        <form role="form" method="post">
+            <style>
+                .form-group {
+                    width:50%;
+                    margin: 1%;
+                     height:60px; 
+                    /* background-color:#0f0; */
+                    float:center;
+                }
+                .form-group_1{
+                    width:100%;
+                    margin: 1%;
+                    float:middle;
+                }
+            </style>
+
+            <div class="form-group">
+                <input class="form-control" placeholder="Option Symbol" name="optionsymbol" autofocus="" type="text"
+                       required="required" maxlength=80>
+            </div>
+    
+            <div class="form-group">
+                <input class="form-control" placeholder="Initial Capital/$" name="capital" autofocus="" type="text"
+                       required="required" maxlength=80>
+            </div>    
+
+            <div class="form-group_1">
+                <input type="submit" class="btn btn-primary btn-block" value="Generate Strategy">
+            </div>
+
+        </form>
+    </div>
+</div>
+{% endblock %}
